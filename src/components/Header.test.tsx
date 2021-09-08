@@ -11,4 +11,7 @@ describe("Header", () => {
     const ui = screen.getByTestId("Header");
     expect(ui).toHaveClass("Header");
   });
+  it.todo('shows the company name')
+  it.todo('has a cart button')
+  it.todo('shows the # of items in the cart')
 });
